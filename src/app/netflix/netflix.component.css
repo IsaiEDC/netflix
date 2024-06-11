@@ -1,5 +1,21 @@
 img{
-  width: 15%;
-  height: 15%;
-  display: block;
+  width: 7%;
+  height: 7%;
+  margin-right: 1300px;
+  margin-left: 90px;
+}
+
+button{
+  margin: 15px;
+
+}
+
+h1,p{
+  font-family: sans-serif;
+  text-size-adjust: 100%;
+  text-align: center;
+}
+
+form{
+  text-align: center;
 }
