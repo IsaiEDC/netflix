@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NetflixComponent } from './netflix/netflix.component';
+import { PartedosComponent } from './partedos/partedos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NetflixComponent
+    NetflixComponent,
+    PartedosComponent
   ],
   imports: [
     BrowserModule,
