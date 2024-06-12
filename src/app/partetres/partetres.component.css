@@ -1,0 +1,14 @@
+div{
+  background-color: black;
+  margin-top: 7px;
+}
+h2,p{
+  color: white;
+  justify-content: left;
+}
+.letras{
+  margin-top: 175px;
+}
+.h2{
+  font-weight: 1000;
+}
