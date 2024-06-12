@@ -8,6 +8,7 @@ import { PartedosComponent } from './partedos/partedos.component';
 import { PartetresComponent } from './partetres/partetres.component';
 import { PerfilniniosComponent } from './perfilninios/perfilninios.component';
 import { PartedescargasComponent } from './partedescargas/partedescargas.component';
+import { PfComponent } from './pf/pf.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { PartedescargasComponent } from './partedescargas/partedescargas.compone
     PartedosComponent,
     PartetresComponent,
     PerfilniniosComponent,
-    PartedescargasComponent
+    PartedescargasComponent,
+    PfComponent
   ],
   imports: [
     BrowserModule,
