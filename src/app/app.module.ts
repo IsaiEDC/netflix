@@ -10,6 +10,7 @@ import { PerfilniniosComponent } from './perfilninios/perfilninios.component';
 import { PartedescargasComponent } from './partedescargas/partedescargas.component';
 import { PfComponent } from './pf/pf.component';
 import { FooterComponent } from './footer/footer.component';
+import { LinkextrasComponent } from './linkextras/linkextras.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FooterComponent } from './footer/footer.component';
     PerfilniniosComponent,
     PartedescargasComponent,
     PfComponent,
-    FooterComponent
+    FooterComponent,
+    LinkextrasComponent
   ],
   imports: [
     BrowserModule,
