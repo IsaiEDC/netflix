@@ -1,3 +1,7 @@
+export interface links{
+  link: string;
+
+}
 /*
 export interface links {
   imagen:string,
@@ -7,3 +11,4 @@ export interface links {
   ]
 }
 */
+
