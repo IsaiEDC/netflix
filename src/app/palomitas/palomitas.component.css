@@ -1,0 +1,16 @@
+div{
+  background-color: #84112E;
+}
+p{
+  color: white;
+  margin-left: 20px;
+}
+button{
+  margin-left: 20px;
+  outline: none;
+  border-radius:10px;
+}
+img{
+  height:100px;
+  width: 100px;
+}
