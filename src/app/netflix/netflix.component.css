@@ -7,7 +7,7 @@ img{
 
 button{
   margin: 15px;
-
+  height: 40px;
 }
 
 h1,p{
@@ -48,4 +48,5 @@ div{
 .cuadro-email{
   width: 430px;
   margin-left: 700px;
+  height: 40px;
 }
