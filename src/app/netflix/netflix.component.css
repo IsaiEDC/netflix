@@ -43,3 +43,8 @@ form{
   margin-left: 700px;
   height: 40px;
 }
+
+.imagendefondo{
+  background-image: url(../../assets/imagen\ principal\ netflix.jpg);
+
+}
