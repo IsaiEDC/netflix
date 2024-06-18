@@ -1,5 +1,6 @@
 div{
-  background-image: url(../../assets/fondodepalomitas.jpg);
+  /*background-image: url(../../assets/fondodepalomitas.jpg);*/
+  background: linear-gradient(to right,black, blue, red);
 
 }
 p{
@@ -13,3 +14,4 @@ img{
   height:100px;
   width: 100px;
 }
+
