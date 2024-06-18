@@ -5,7 +5,17 @@ h3{
 form{
   text-align: center;
 }
-button{
-  margin: 15px;
 
+.btn-big{
+  font-size: 25px;
+  width: fit-content;
+  height: fit-content;
+  font-weight: 500;
+  background-color: red;
+}
+
+.cuadro-email{
+  width: 430px;
+  margin-left: 700px;
+  height: 40px;
 }
