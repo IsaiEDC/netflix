@@ -1,17 +1,25 @@
 <header>
   <div class="elementos">
-    <img src="../../assets/Netflix_Logo_.png" />
+    <nav class="d-flex justify-content-around">
+      <img src="../../assets/Netflix_Logo_.png" />
+      <!--   <button><i class="bi bi-translate"></i>Español</button>  -->
+      <div class="d-flex w-25 justify-content-around align-items-center">
 
-    <!--   <button><i class="bi bi-translate"></i>Español</button>  -->
+        <div class="d-flex align-items-center w-50 h-100 justify-content-center">
+          <i style="color: white;" class="bi bi-translate me-2 fs-4"></i>
+          <label for="idiomas">
+            <select name="idioma" id="idiomas">
+              <button type="button" class="btn-close" aria-label="Close"></button>
+              <option value="Español">Español</option>
+              <option value="English">English</option>
+              <option value="CHileno">Chileno</option>
+            </select>
+          </label>
+        </div>
 
-    <label for="idiomas"> </label> <i class="bi bi-translate"> </i>
-    <select name="idioma" id="idiomas">
-      <button type="button" class="btn-close" aria-label="Close"></button>
-      <option value="Español">Español</option>
-      <option value="English">English</option>
-    </select>
-
-    <button>Iniciar Sesion</button>
+        <button>Iniciar Sesion</button>
+      </div>
+    </nav>
 
     <h1>
       <b>Películas y series ilimitadas y mucho más</b>
@@ -36,7 +44,7 @@
       <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email">
       <div>
 
-        <button type="submit">
+        <button class="btn-big d-flex justify-content-center" type="submit" >
           Comenzar <i class="bi bi-arrow-right-short"> </i>
         </button>
 

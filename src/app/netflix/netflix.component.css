@@ -1,13 +1,14 @@
 img{
   width: 7%;
   height: 7%;
-  margin-right: 1300px;
   margin-left: 90px;
 }
 
-button{
-  margin: 15px;
-  height: 40px;
+.btn-big{
+  font-size: 25px;
+  width: fit-content;
+  height: fit-content;
+  font-weight: 500;
 }
 
 h1,p{
@@ -41,10 +42,7 @@ form{
   margin-bottom: 8px;
 }
 
-div{
-  margin-bottom: 40px;
 
-}
 .cuadro-email{
   width: 430px;
   margin-left: 700px;
