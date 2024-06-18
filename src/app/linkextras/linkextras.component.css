@@ -4,5 +4,11 @@ p,a{
 .ordenamiento{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  padding-left: 300px;
+  padding-right: 300px;
+}
 
+.titulo{
+  padding-left: 300px;
+  padding-right: 300px;
 }
