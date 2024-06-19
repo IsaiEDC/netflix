@@ -44,11 +44,10 @@ form{
   height: 40px;
 }
 
-.imagendefondo{
-  /* background-image: url(../../assets/imagen\ principal\ netflix.jpg);*/
+
+header{
+  background-image: url(../../assets/imagen_principal_netflix.jpg);
+  margin-top: 25px;
   background-attachment: fixed;
   background-size: 100% 100%;
-}
-header{
-  margin-top: 25px;
 }
