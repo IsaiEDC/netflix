@@ -1,9 +1,22 @@
-.letras{
+.card-container {
+  display: flex;
+  background: linear-gradient(45deg, #000000, #000000);
+  border: 3px solid #333;
+  border-radius: 10px;
+  padding: 10ps;
+  width: 300px;
+  height: 100px;
+  color: white;
+  box-shadow: 04px 8px rgba (0, 0, 0, 0.3);
+
+}
+
+.letras {
   color: white;
   margin-top: 175px;
 }
 
-.titulo{
+.titulo {
   text-align: left;
 }
 
@@ -12,26 +25,48 @@
   color: #0071eb;
 }
 
-.titulo{
+.titulo {
   color: rgb(255, 255, 255);
   font-weight: 500;
 }
 
-.assetdedescarga{
-  height: 60px;
-  width:  48px;
+.assetdedescarga {
+  /* background-color: red; */
+  display: flex;
   background-size: 100%;
 }
 
-.card-container{
+
+.imagen{
+  flex: 1;
+  width: 50ps;
+  height: 55px;
+  border-radius: 5px;
+}
+.image-container {
+padding: 1%;
+margin-left: 1%;
   display: flex;
+
+
+
+}
+
+.text-container{
+  flex: 1;
+  margin-left: 10px;
+  background-color: red;
   align-items: center;
-  background: linear-gradient(45deg,#000000, #000000);
-  border:3px solid #333;
-  border-radius:10px;
-  padding: 10ps;
-  width: 300px;
-  height: 100px;
-  color: white;
-  box-shadow: 04px 8px rgba (0,0,0,0.3);
+  justify-content: center;
+
+}
+
+.titulo{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.estado{
+  font-size: 14px;
+  color:#000bdb;
 }
