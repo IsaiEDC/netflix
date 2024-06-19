@@ -45,7 +45,7 @@ form{
 }
 
 .imagendefondo{
-  background-image: url(../../assets/imagen\ principal\ netflix.jpg);
+  /*background-image: url(../../assets/imagen\ principal\ netflix.jpg);*/
   background-attachment: fixed;
   background-size: 100% 100%;
 }
