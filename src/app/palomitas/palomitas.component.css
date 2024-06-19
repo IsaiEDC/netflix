@@ -1,11 +1,12 @@
 div{
   /*background-image: url(../../assets/fondodepalomitas.jpg);*/
   background: linear-gradient(to top, #0E1B4E,#421741,#8A112D);
-
+  height: 120px;
 }
 p{
   color: white;
   margin-left: 20px;
+  margin-top: 10px;
 }
 .button{
   margin-left: 20px;

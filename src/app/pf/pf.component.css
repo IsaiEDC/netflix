@@ -9,11 +9,17 @@
 
 .accordion-bg   {
   background-color: gray;
+  color: white;
+  width: 150px;
+  height: 150px;
 }
 
-accordion-color{
+.accordion-color{
   color: white;
 }
 .h2{
   color: white;
 }
+
+/* $accordion-body-padding-y:                $accordion-padding-y;
+$accordion-body-padding-x: */
