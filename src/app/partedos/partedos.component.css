@@ -1,8 +1,25 @@
 div{
-    background-color: black;
     margin-top: 20px;
 }
 h1,p{
   margin-top: 45px;
     color: white;
+}
+
+
+.descarga-imagen{
+  border: 2px solid grey;
+  border-radius: 15px;
+  height: 130px;
+  width: 400px;
+  color: white;
+  overflow: hidden;
+  margin-top: -100px;
+  background-color: black;
+
+}
+
+.descarga-imagen h6{
+  margin: 0;
+  padding: 0;
 }
