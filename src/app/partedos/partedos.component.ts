@@ -13,7 +13,7 @@ export class PartedosComponent {
       titulo:"Disfruta en tu TV",
       descripcion:`Ve en smart TV, PlayStation, Xbox, Chromecast, Apple TV,
       reproductores de Blu-ray y más.`,
-      imagen:"../../assets/NesflixConTVConRecorte (1).gif"
+      imagen:"../../assets/NesflixConTVConRecorte(1).gif"
     },
     {
       titulo:"Disfruta donde quieras",
