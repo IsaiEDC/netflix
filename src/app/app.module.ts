@@ -12,6 +12,7 @@ import { PfComponent } from './pf/pf.component';
 import { FooterComponent } from './footer/footer.component';
 import { LinkextrasComponent } from './linkextras/linkextras.component';
 import { PalomitasComponent } from './palomitas/palomitas.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { PalomitasComponent } from './palomitas/palomitas.component';
     PfComponent,
     FooterComponent,
     LinkextrasComponent,
-    PalomitasComponent
+    PalomitasComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
