@@ -6,6 +6,7 @@ import { PublicidadPelicula } from '../interfaces/publicidad-pelicula';
   templateUrl: './partedos.component.html',
   styleUrls: ['./partedos.component.css']
 })
+
 export class PartedosComponent {
   publicidad:PublicidadPelicula[]=[
     {
@@ -26,6 +27,12 @@ export class PartedosComponent {
       espacio diseñado exclusivamente para ellos, sin costo con tu <br>
       membresía.`,
       imagen:"../../assets/perfilninios.png"
+    },
+    {
+      titulo:"Descarga tus series para verlas offline",
+      descripcion:`Ve Netflix en un avión, un tren o un <br>
+      submarino...`,
+      imagen:"../../assets/promocionaltelefono.jpg"
     },
   ]
 }
