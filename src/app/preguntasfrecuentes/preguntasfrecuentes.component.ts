@@ -1,11 +1,17 @@
 import { Component } from '@angular/core';
 import { preguntasrespuestas } from '../interfaces/preguntas-respuestas';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-preguntasfrecuentes',
   templateUrl: './preguntasfrecuentes.component.html',
   styleUrls: ['./preguntasfrecuentes.component.css']
-})
+}
+)
+ 
+
+
+
 export class PreguntasfrecuentesComponent {
   preguntas:preguntasrespuestas[]=[
     {
@@ -32,5 +38,20 @@ export class PreguntasfrecuentesComponent {
       pregunta:"¿Es bueno Netflix para los niños?",
       respuesta:"La experiencia de Netflix para niños está incluida en la membresía para que los padres tengan el control mientras los peques disfrutan series y películas familiares en su propio espacio.Los perfiles para niños incluyen controles parentales protegidos por PIN que te permiten restringir el contenido que pueden ver los niños en función de la clasificación por edad y bloquear determinados títulos que no quieras que los niños vean."
     },
-  ]
+  ];
+
+  preguntasfrecuentesItem = [
+    {Pregunta: 'pregunta 1',content: 'respuesta de la pregunta 1', expanded: false},
+    {Pregunta: 'pregunta 2',content: 'respuesta de la pregunta 2', expanded: false},
+    {Pregunta: 'pregunta 3',content: 'respuesta de la pregunta 3', expanded: false},
+    {Pregunta: 'pregunta 4',content: 'respuesta de la pregunta 4', expanded: false},
+    {Pregunta: 'pregunta 5',content: 'respuesta de la pregunta 5', expanded: false},
+    {Pregunta: 'pregunta 6',content: 'respuesta de la pregunta 6', expanded: false}
+  ];
+
+  togglePreguntasFrecuentes(index: number): void {
+    this.preguntasfrecuentesItem[index].expanded = !this.preguntasfrecuentesItem[index].expanded;
+  }
+  
+
 }
