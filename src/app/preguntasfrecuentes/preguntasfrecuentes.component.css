@@ -1,5 +1,7 @@
 .acordion{
     display: block;
     justify-content: center;
-    background-color: red;
+    padding-left: 45%;
+    color: white;
+    background-color: #2D2D2D;
 }
